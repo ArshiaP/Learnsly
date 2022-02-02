@@ -4,6 +4,7 @@ import {Carousel} from '../Carousel/Carousel';
 import './carouselStyle.css'
 import NavBar from '../NavBar/NavBar';
 import Footer from '../Footer/Footer';
+import Switch from '../Switch/Switch';
 
 
 function Domains() {
@@ -18,6 +19,7 @@ function Domains() {
     <div className="page">
       <Footer/>
       <NavBar/>
+      <Switch/>
       <div className="title">
         Domains To Earn From
       </div>

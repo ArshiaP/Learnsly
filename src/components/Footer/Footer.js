@@ -10,25 +10,15 @@ function Footer() {
       <div className='footer-left'>
         <span className='foot-contact'>Contact us here</span>
         <div className='foot-social'>
-          <AiFillInstagram color='white' size='20px' style={{
-      margin:'0px 0.69vw',
-    }}/>
-          <AiOutlineTwitter color='white' size='20px' style={{
-      margin:'0px 0.69vw',
-    }} />
-          <IoMdMail color='white' size='20px' style={{
-      margin:'0px 0.69vw',
-    }} />
-          <AiFillLinkedin color='white' size='20px' style={{
-      margin:'0px 0.69vw',
-    }}/>
+          <AiFillInstagram className='foot-icons-left'/>
+          <AiOutlineTwitter className='foot-icons-left'/>
+          <IoMdMail className='foot-icons-left'/>
+          <AiFillLinkedin className='foot-icons-left'/>
         </div>
       </div>
       <div className='footer-right'>
         <span className='foot-right-text'>Copyright Learnsly</span>
-        <AiFillTrademarkCircle color='white' size='20px' style={{
-      margin:'0.2vw 0.69vw',
-    }}/>
+        <AiFillTrademarkCircle className='foot-icons-right'/>
         <div className='footer-line'></div>
         <span className='foot-right-text'>Privacy Policy</span>
         <div className='footer-line'></div>

@@ -49,3 +49,13 @@
   border-left: 1px solid #FFFFFF;
   height: 24px;
 }
+.foot-icons-left{
+  color:white;
+  font-size:20px;
+  margin:0px 0.69vw;
+}
+.foot-icons-right{
+  color:white;
+  font-size:20px;
+  margin:0.2vw 0.69vw;
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+.footer-container{
+  position: absolute;
+  bottom:0;
+  width: 100vw;
+  background:#6F3285 ;
+  height:5vw; 
+  display: flex;
+}
+
+.footer-left{
+   display: flex;
+   margin-top: 1.8vw;
+}
+
+.foot-contact{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.39vw;
+  line-height: 24px;
+  color: #F9F8F8;
+  margin-left: 1.53vw;
+  margin-right: 1.53vw;
+}
+
+.foot-social{
+  margin-top: 0.2vw;
+  
+}
+
+.footer-right{
+  margin-left: 28vw;
+  margin-top: 1.8vw;
+  display: flex;
+}
+.foot-right-text{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.39vw;
+  line-height: 24px;
+  color: #F9F8F8;
+  margin-right: 0.5vw;
+  margin-left: 0.5vw;
+}
+.footer-line{
+  border-left: 1px solid #FFFFFF;
+  height: 24px;
+}

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+
+}
+body{ 
+  display:flex; 
+  flex-direction:column; 
+  position: relative;
+}
+
+.page{
+  height:800px;
+}
+
+.header{
+  height: 5vw;
+}
+
+.title{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.33vw;
+  line-height: 59px;
+  margin-top:7vw;
+  text-align: center;
+  color: #6F3285;
+  margin-bottom: 30px;
+}
+
+.graphic{
+  height: 197.92px;
+  background-color: black;
+}
+.domain{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+margin-top: 20px;
+text-align: center;
+z-index: 0;
+color: #6F3285;
+}
+
+.domainName{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.5vw;
+  line-height: 44px;
+  text-align: center;
+  color: #6F3285;
+
+  margin-top: 4.26vw;
+}
+
+.domainDescription{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.52vw;
+  line-height: 140.62%;
+  color: #000000;
+  margin-top: 3.47vw;
+}

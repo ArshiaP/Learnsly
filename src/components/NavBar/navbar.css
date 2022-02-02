@@ -1,0 +1,44 @@
+.nav-container{
+  /* width: 100vw; */
+  height: 5vw;
+  position: absolute;
+  top: 0;
+  /* overflow-x: hidden; */
+}
+
+.nav-items{
+  display: inline-block;
+}
+.logo{
+  position: absolute;
+  top: 2.29vw;
+  left: 4.16vw;
+}
+.dp{
+  position: absolute;
+  background: #6F3285;
+  text-transform: uppercase;
+  align-items:center;
+  border-radius: 50%;
+  width: 4vw;
+  height: 4vw;
+  padding: 5px;
+  /* vertical-align: middle;
+  margin: 0 10px 0 0; */
+  top:1.04vw;
+  left:91.6vw;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 55px;
+  color: #FFFFFF;
+  display: inline-flex;
+
+}
+
+i{
+  width:max-content;
+  font-style: normal;
+  margin: 0 auto;
+}

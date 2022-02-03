@@ -1,18 +1,19 @@
-.nav-container{
+.nav2-container{
   height: 5vw;
   position: absolute;
   top: 0;
 }
 
-.nav-items{
+.nav2-items{
   display: inline-block;
 }
-.logo{
+.nav2-logo{
   position: absolute;
   top: 2.29vw;
   left: 4.16vw;
+  color: #FFFFFF;
 }
-.dp{
+.nav2-dp{
   position: absolute;
   background: #6F3285;
   text-transform: uppercase;
@@ -21,8 +22,7 @@
   width: 4vw;
   height: 4vw;
   padding: 5px;
-  /* vertical-align: middle;
-  margin: 0 10px 0 0; */
+  border: 2px solid white;
   top:1.04vw;
   left:91.6vw;
   font-family: Montserrat;

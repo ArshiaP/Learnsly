@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{ 
+  display:flex; 
+  flex-direction:column; 
+  position: relative;
+}
+
+.sd-page{
+  height:79vw;
+}
+
+
+.sd-header{
+  height: 24.06vw;
+  background-color: #6F3285;
+}
+.sd-title{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.9vw;
+  line-height: 61px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top:7.03vw;
+}
+
+.sd-search{
+  width: 70.39vw;
+  height: 5vw;
+  background: #FFFFFF;
+  border-radius: 30px;
+  border:#FFFFFF;
+  margin-left: 14.95vw;
+  margin-top:2.73vw;
+}
+
+.sd-search::placeholder{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #808080;
+  padding-left:3.125vw;
+}
+.sd-icon{
+  position: absolute;
+  font-size: 2.343vw;
+  top: 15.625vw;
+  left:15.55vw;
+  color: #6F3285;
+}
+.sd-content{
+  display: flex;
+  margin-top: 3.125vw;
+}
+.sd-topics{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.953vw;
+  line-height: 30px;
+  color: #000000;
+  list-style: none;
+  margin-left: 9.375vw;
+  margin-bottom: 1.5625vw;
+}
+

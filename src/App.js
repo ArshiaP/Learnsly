@@ -7,6 +7,7 @@ import {
   Routes
 } from "react-router-dom";
 import CourseCard from './components/Card/course-card';
+import ProfilePage from './components/ProfilePage/profile-page';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="jobcard" element={<JobCard />} />
           <Route path="coursecard" element={<CourseCard />} />
+          <Route path="profile" element={<ProfilePage />} />
         </Routes>
       </Router>
     </div>

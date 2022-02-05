@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.profile {
+  margin-top: 3.47vw;
+  margin-bottom: 3.47vw;
+  position: relative;
+  width: 90.27vw;
+  height: 20.83vw;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 0px 1.38vw rgba(0, 0, 0, 0.25);
+  border-radius: 2.084vw;
+}
+
+.profile .circle {
+  position: absolute;
+  width: 13.88vw;
+  height: 13.88vw;
+  background: #6f3285;
+  border: 0.69vw solid #ffffff;
+  border-radius: 50%;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 6.944vw;
+  color: #ffffff;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 3.47vw;
+}
+
+.profile .upper {
+  background: #6f3285;
+  height: 10.416vw;
+  border-radius: 2.084vw 2.084vw 0px 0px;
+}
+
+.profile .name {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.47vw;
+  color: #ffffff;
+  text-transform: capitalize;
+  position: absolute;
+  left: 19.44vw;
+  top: 5.55vw;
+}
+
+.profile .username {
+  position: absolute;
+  left: 19.44vw;
+  top: 11.11vw;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.08vw;
+  line-height: 37px;
+}
+
+.profile .email {
+  position: absolute;
+  left: 19.44vw;
+  top: 13.81vw;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 2.08vw;
+  line-height: 37px;
+}
+
+.profile .change-password {
+  position: absolute;
+  width: 16vw;
+  height: 3.68vw;
+  left: 72vw;
+  top: 11.8vw;
+  border-radius: 1.388vw;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.388vw;
+  line-height: 24px;
+  color: #6f3285;
+  border: 1px solid rgba(128, 128, 128, 0.8);
+  line-height: 3.68vw;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.profile .change-password:hover {
+  cursor: pointer;
+  background-color: #dcdcdc;
+  transition: 0.2s;
+}
+
+.profile .edit-name {
+  font-size: 2.78vw;
+  margin-left: 1.388vw;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.profile .edit-username {
+  font-size: 2.083vw;
+  margin-left: 0.694vw;
+  color: #6f3285;
+  cursor: pointer;
+}

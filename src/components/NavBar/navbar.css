@@ -40,3 +40,16 @@ i{
   font-style: normal;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 576px) {
+  .dp{
+    left:84.62vw;
+    top:2.56vw;
+    height:7.69vw;
+    width: 7.69vw;
+    font-size: 3.85vw;
+  }
+  .logo{
+    top:3.85vw;
+  }
+}

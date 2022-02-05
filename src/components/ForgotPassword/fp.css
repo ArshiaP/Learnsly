@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{ 
+  display:flex; 
+  flex-direction:column; 
+  position: relative;
+}
+
+.fp-page{
+  height: 60vw;
+}
+
+.fp-container{
+  width: 67.8vw;
+  height:45vw;
+  border: 0.78vw solid #6F3285;
+  box-sizing: border-box;
+  border-radius: 3.125vw;
+  margin: auto;
+  margin-top: 7.03vw;
+}
+
+.fp-title{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5vw;
+  line-height: 96px;
+  text-align: center;
+  color: #6F3285;
+  margin-top: 1.5625vw;
+  margin-bottom: 1.5625vw;
+}
+
+.fp-form{
+  width: 21.875vw;
+  margin: auto;
+}
+
+.fp-label{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.406vw;
+  line-height: 27px;
+  color: #5B5858;
+}
+
+.fp-input{
+  width:21.875vw;
+  height:2.73vw;
+  background-color: #F9F8F8;
+  border-radius: 3.906vw;
+  border:#F9F8F8;
+  margin-bottom: 3.125vw;
+  font-family: Poppins;
+  padding-left: 0.39vw;
+}
+
+.fp-button{
+  width:21.875vw;
+  height:2.73vw;
+  background-color: #6F3285;
+  border-radius: 0.39vw;
+  color: white;
+  margin-left: 22.109vw;
+  border:#6F3285;
+  font-size: 1.5625vw;
+  margin-top: 0.78vw;
+}
+
+@media screen and (max-width: 576px) {
+  html{
+    height: 100%;
+  }
+  .fp-page{
+    height:100%;
+  }
+  .fp-container{
+    height: 89.74vw;
+    margin-top:25.64vw;
+  }
+  .fp-form{
+    width:38.46vw;
+  }
+  .fp-label{
+    font-size: 3.07vw;
+  }
+  .fp-input{
+    width:38.46vw;
+    height:3.846vw;
+  }
+  .fp-button{
+    height:3.846vw;
+    font-size: 2.05vw ;
+  }
+}

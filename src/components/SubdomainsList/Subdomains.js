@@ -19,7 +19,7 @@ function Subdomains() {
         <AiOutlineSearch className='sd-icon' />
       </div>
       <div className='sd-content'>
-        <div className='sd-row1'>
+        <div className='sd-row1 sd-row'>
           {
             Array.apply(null, { length: 10 }).map((e, i) => (
               <li className="sd-topics" key={i}>
@@ -29,7 +29,7 @@ function Subdomains() {
             ))
           }
         </div>
-        <div className='sd-row2'>
+        <div className='sd-row2 sd-row'>
           {
             Array.apply(null, { length: 10 }).map((e, i) => (
               <li className="sd-topics" key={i}>
@@ -39,7 +39,7 @@ function Subdomains() {
             ))
           }
         </div>
-        <div className='sd-row3'>
+        <div className='sd-row3 sd-row'>
           {
             Array.apply(null, { length: 10 }).map((e, i) => (
               <li className="sd-topics" key={i}>
@@ -49,7 +49,7 @@ function Subdomains() {
             ))
           }
         </div>
-        <div className='sd-row4'>
+        <div className='sd-row4 sd-row'>
           {
             Array.apply(null, { length: 10 }).map((e, i) => (
               <li className="sd-topics" key={i}>

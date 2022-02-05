@@ -8,7 +8,7 @@ function NavBar2() {
         <div className='nav2-logo'>Logo</div>
       </div>
       <div className='nav2-items'>
-        <div className='nav2-dp'><i>SS</i></div>
+        <div className='nav2-dp'><i className='nav2-i'>SS</i></div>
       </div>
     </div>
   )

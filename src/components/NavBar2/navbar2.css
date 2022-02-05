@@ -35,8 +35,24 @@
 
 }
 
-i{
+.nav2-i{
   width:max-content;
   font-style: normal;
   margin: 0 auto;
+}
+@media screen and (max-width: 576px) {
+  .nav2-dp{
+    left:84.62vw;
+    top:2.56vw;
+    height:7.69vw;
+    width: 7.69vw;
+    font-size: 3.85vw;
+    border:1px solid white;
+  }
+  .nav2-logo{
+    top:3.85vw;
+  }
+  .nav2-i{
+    margin-right: 1.41vw;
+  }
 }

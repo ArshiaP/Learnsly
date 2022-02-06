@@ -1,7 +1,7 @@
 import React from 'react';
 import "./profile-page.css";
 import { BiEdit } from 'react-icons/bi';
-
+import TabsComponent from './tabs';
 function ProfilePage() {
   return <>
     <div className='profile'>
@@ -17,6 +17,7 @@ function ProfilePage() {
         <div className="change-password">Change Password</div>
       </div>
     </div>
+    <TabsComponent />
   </>;
 }
 
